@@ -68,19 +68,19 @@ namespace CharFramework
 		/// </summary>
 		/// <param name="key"></param>
 		/// <returns></returns>
-		public bool ContainsKey(string key)
+		public virtual bool ContainsKey(string key)
 		{
 			return intDict.ContainsKey(key) || floatDict.ContainsKey(key) || stringDict.ContainsKey(key);
 		}
 
-		public void DeleteKey(string key)
+		public virtual void DeleteKey(string key)
 		{
 			intDict.Remove(key);
 			floatDict.Remove(key);
 			stringDict.Remove(key);
 		}
 		
-		public void Clear()
+		public virtual void Clear()
 		{
 			if (intDict == null || floatDict == null || stringDict == null)
 			{
