@@ -1,0 +1,23 @@
+{
+  "name": "com.charsui.charsave",
+  "version": "0.0.1",
+  "displayName": "CharSave",
+  "description": "A JSON-based save system that provides simple, dictionary-like persistent storage.",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.1",
+    "com.charsui.charframework": "https://github.com/HikariXP/CharFramework.git"
+  },
+  "keywords": [
+    "charsui",
+    "char",
+    "save"
+  ],
+  "author": {
+    "name": "CharSui",
+    "email": "charcharsui@gmail.com",
+    "url": "https://github.com/HikariXP"
+  },
+  
+  "samples": [
+  ]
+}
